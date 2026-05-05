@@ -1,0 +1,58 @@
+import { Product } from './types';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 'p1',
+    name: 'Zenith Chrono',
+    price: 450,
+    description: 'Precision engineering meets timeless design. A minimalist timepiece with a sapphire crystal face and Italian leather strap.',
+    category: 'Timepieces',
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1000&auto=format&fit=crop',
+    featured: true,
+  },
+  {
+    id: 'p2',
+    name: 'Acoustic Core H1',
+    price: 320,
+    description: 'High-fidelity audio wrapped in premium sustainable materials. Active noise cancellation and 40-hour battery life.',
+    category: 'Audio',
+    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop',
+    featured: true,
+  },
+  {
+    id: 'p3',
+    name: 'Lumina Desk Lamp',
+    price: 180,
+    description: 'Architectural lighting for the modern workspace. Seamless touch dimming and warm-to-cool color adjustment.',
+    category: 'Home',
+    image: 'https://images.unsplash.com/photo-1534073828943-f801091bb18c?q=80&w=1000&auto=format&fit=crop',
+    featured: false,
+  },
+  {
+    id: 'p4',
+    name: 'Modus Chair',
+    price: 850,
+    description: 'Ergonomic sculpture for your home office. Breathable mesh and adaptive lumbar support.',
+    category: 'Furniture',
+    image: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?q=80&w=1000&auto=format&fit=crop',
+    featured: true,
+  },
+  {
+    id: 'p5',
+    name: 'Orizont Backpack',
+    price: 140,
+    description: 'The ultimate minimalist travel companion. Weather-resistant fabric and hidden anti-theft compartments.',
+    category: 'Travel',
+    image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=1000&auto=format&fit=crop',
+    featured: false,
+  },
+  {
+    id: 'p6',
+    name: 'Solis Flask',
+    price: 45,
+    description: 'Vacuum-insulated stainless steel. Keeps drinks cold for 24 hours or hot for 12 hours.',
+    category: 'Lifestyle',
+    image: 'https://images.unsplash.com/photo-1602143399344-eee3164ca843?q=80&w=1000&auto=format&fit=crop',
+    featured: false,
+  },
+];
